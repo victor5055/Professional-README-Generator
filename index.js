@@ -52,7 +52,29 @@ let questions = [
             "MIT",
             "Mozilla",
             "Open"
-        ]
+        ],
     },{
-    
+        type: "input",
+        message: "Please state provide a screenshot (1 of 3).",
+        name: "scriptjs"
+    },{
+        type: "input",
+        message: "Please state provide a screenshot (2 of 3).",
+        name: "fileGnerator"
+    },{
+        type: "input",
+        message: "Please state provide a screenshot (3 of 3).",
+        name: "README"
+    }
 ];
+// Function to write to my ReadMe.md file. //
+inquirer.prompt(questions).then(function(response) {
+    console.log(response);
+    
+     var content = fileGenerator(response);
+     console.log(content);
+      fs.writeFile("./ReadMe.md", content, function(err){
+          if (err) throw err
+          console.log("success");
+      });
+ } ); 
