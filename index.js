@@ -55,15 +55,7 @@ let questions = [
         ],
     },{
         type: "input",
-        message: "Please state provide a screenshot (1 of 3).",
-        name: "scriptjs"
-    },{
-        type: "input",
-        message: "Please state provide a screenshot (2 of 3).",
-        name: "fileGnerator"
-    },{
-        type: "input",
-        message: "Please state provide a screenshot (3 of 3).",
+        message: "Provide a screenshot.",
         name: "README"
     }
 ];
