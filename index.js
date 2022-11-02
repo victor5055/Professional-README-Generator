@@ -16,6 +16,11 @@ let questions = [
         type:"input",
         message:"Give your Github profile link?",
         name: "GitHub"
+    },{   
+        type: "input",
+        message: "What is your email?",
+        name: "email"
+  
     },{
         type:"input",
         message:"Provide a breif summary of the project?",
@@ -57,15 +62,14 @@ let questions = [
         type: "input",
         message: "Provide a screenshot.",
         name: "README"
-    }
-];
-// Function to write to my ReadMe.md file. //
+    }];
+// Function to write to my README.md file. //
 inquirer.prompt(questions).then(function(response) {
     console.log(response);
     
      var content = fileGenerator(response);
      console.log(content);
-      fs.writeFile("./ReadMe.md", content, function(err){
+      fs.writeFile("./README.md", content, function(err){
           if (err) throw err
           console.log("success");
       });
