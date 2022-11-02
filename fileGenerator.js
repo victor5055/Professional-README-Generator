@@ -28,3 +28,13 @@ function fileGenerator(response) {
     7.   I want to enter my GitHub username; ant then this is added to the section of the README entitled Questions, with a link to my GitHub profile.
     8.   I want to enter my email address; and then this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions.
     9.   I want to click on the links in the Table of Contents; and then, I am taken to the corresponding section of the README.
+
+    ## Contribution Guidelines
+    If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so.
+    ###### [Back to Table of Contents](#Table-of-Contents)
+    ${response.contribute}
+
+    ## Test Instructions
+    Tests for your application and examples on how to run them.
+    ###### [Back to Table of Contents](#Table-of-Contents)
+    1.  ${response.test}

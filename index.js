@@ -20,7 +20,10 @@ let questions = [
         type: "input",
         message: "What is your email?",
         name: "email"
-  
+    },{
+        type: "input",
+        message: "Please state any test(s)",
+        name: "test"
     },{
         type:"input",
         message:"Provide a breif summary of the project?",
