@@ -38,3 +38,16 @@ function fileGenerator(response) {
     Tests for your application and examples on how to run them.
     ###### [Back to Table of Contents](#Table-of-Contents)
     1.  ${response.test}
+
+    ## Overview: What Was Accomplished!
+    ### Workflow [Back to Table of Contents](#Table-of-Contents)
+    ${response.accomplish}
+
+    ### Screenshots (Building this application)
+    ###### [Back to Table of Contents](#Table-of-Contents)
+    #### Demo I createad ![script.js](${response.scriptjs})
+    
+    #### Demo I createad ![fileGenerator.js](${response.fileGenerator})
+    
+    #### Demo I createad ![README.md](${response.README})
+    
