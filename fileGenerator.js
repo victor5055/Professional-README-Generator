@@ -51,3 +51,16 @@ function fileGenerator(response) {
     
     #### Demo I createad ![README.md](${response.README})
     
+
+    ## Repositiory End-Goal Criterea
+    ###### [Back to Table of Contents](#Table-of-Contents)
+    ${response.endgoal}
+    
+    ## License
+    This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+    ${response.license}
+
+    return content;
+};
+
+module.exports = fileGenerator;
