@@ -27,8 +27,8 @@ let questions = [
 
     },{
         type:"input",
-        message:"Provide a breif summary of the project?",
-        name: "summary"
+        message:"Provide a breif description of the project?",
+        name: "description"
     },{
         type:"input",
         message:"Give your logo information?",
@@ -48,9 +48,14 @@ let questions = [
     },{
         type:"input",
         message:"List your collaborators and any attributions that need to be made?",
-        name: "credits"
+        name: "contribute"
     },{
-        type:"input",
+        type: "input",
+        message: "What is your accomplishments?",
+        name: "accomplish"
+    
+    },{
+        type:"list",
         message:"How do you want to license this project?",
         name: "license",
         choices: [
@@ -66,6 +71,15 @@ let questions = [
         type: "input",
         message: "Provide a screenshot.",
         name: "ReadMe"
+    },{
+        type: "input",
+        message: "Please provide a screenshot.",
+        name: "scriptjs"
+    },{
+        type: "input",
+        message: "Please provide a screenshot.",
+        name: "fileGnerator"
+    
     }];
 // Function to write to my README.md file. //
 inquirer.prompt(questions).then(function(response) {
