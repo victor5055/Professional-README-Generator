@@ -69,16 +69,20 @@ let questions = [
         ],
     },{
         type: "input",
-        message: "Provide a screenshot.",
+        message: "Provide a screenshot (Readme).",
         name: "ReadMe"
     },{
         type: "input",
-        message: "Please provide a screenshot.",
+        message: "Please provide a screenshot (scriptjs).",
         name: "scriptjs"
     },{
         type: "input",
-        message: "Please provide a screenshot.",
-        name: "fileGnerator"
+        message: "Please provide a screenshot (fileGenerator).",
+        name: "fileGenerator"
+    },{
+        type: "input",
+        message: "What is your end-goal.",
+        name: "endgoal"
     
     }];
 // Function to write to my README.md file. //
