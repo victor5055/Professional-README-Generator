@@ -51,7 +51,8 @@ none
         
 ![](/fileGenerator.js%20pic.PNG)
         
-
+![](/Readme1.PNG)
+![](/Readme2.PNG)
         
 
 ## Repositiory End-Goal Criterea
