@@ -1,10 +1,10 @@
 # Professional-ReadMe-Generator
 
- VP[victor5055](https://github.com/victor5055) [Email Me](victor5055@outlook.com) [Deployed Application](https://victor5055.github.io/Professional-README-Generator/)
+ VP[victor5055][https://github.com/victor5055] [Email Me][victor5055@outlook.com] [Deployed Application][https://victor5055.github.io/Professional-README-Generator/]
  READMEGenerator© 2022 All Rights Reserved.  MIT All material must be cited or credited, when using material (free to use).
 
 # Table of Contents
-* [Description of Repository](#Repository-Description)
+ *[Repository Description](#Repository-Description)
 * [Installation Instructions](#Install)
 * [Usage of Information](#Usage)
 * [References](#Ref)
@@ -35,7 +35,8 @@ none
 
  ## Test Instructions
 ###### [Back to Table of Contents](#Table-of-Contents)
- none
+ 1. Type in your integrated terminal npm install inquirer.
+ 2.
 
 ## Overview: What Was Accomplished!
 ### Workflow [Back to Table of Contents](#Table-of-Contents)
@@ -43,13 +44,11 @@ none
 
 ### Screenshots (Building this application)
 ###### [Back to Table of Contents](#Table-of-Contents)
-#### Demo created ![script.js]()
 ![](/index.js%20pic.PNG)
         
- #### Demo created ![fileGenerator.js]()
 ![](/fileGenerator.js%20pic.PNG)
         
-#### Demo created ![ReadMe.md]()
+
         
 
 ## Repositiory End-Goal Criterea
