@@ -1,9 +1,11 @@
-var fileGenerator = require("./fileGenerator");
-var fs = require("fs");
-var inquirer = require('inquirer');
+//Declare//
 
-// Questions to ask the user //
-let questions = [
+const fileGenerator = require("./fileGenerator");
+const fs = require("fs");
+const inquirer = require('inquirer');
+
+// Readme Questions, Array of questions //
+const questions = [
     {
         type: "input",
         mesage: "What is the title of your project?",
@@ -85,11 +87,11 @@ let questions = [
         name: "endgoal"
     
     }];
-// Function to write to my README.md file. //
+// Function for Readme file //
 inquirer.prompt(questions).then(function(response) {
     console.log(response);
     
-     var content = fileGenerator(response);
+     const content = fileGenerator(response);
      console.log(content);
       fs.writeFile("./ReadMe.md", content, function(err){
           if (err) throw err

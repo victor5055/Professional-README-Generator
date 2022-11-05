@@ -1,8 +1,7 @@
-function fileGenerator(response) {
-    const content = `# ${response.title}
+# Professional-ReadMe-Generator
 
-    #### ${response.logo}[${response.userName}](${response.GitHub}) [Email Me](${response.email}) [Deployed Application]
-    #### READMEGenerator© 2022 All Rights Reserved.  ${response.license} All material must be cited or credited, when using material (free to use).
+    #### VP[victor5055](https://github.com/victor5055) [Email Me](victor5055@outlook.com) [Deployed Application](https://victor5055.github.io/Professional-README-Generator/)
+    #### READMEGenerator© 2022 All Rights Reserved.  MIT All material must be cited or credited, when using material (free to use).
 
     ## Table of Contents
     * [Description of Repository](#Repository-Description)
@@ -15,7 +14,7 @@ function fileGenerator(response) {
     # Description of Repository
     Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
     ###### [Back to Table of Contents](#Table-of-Contents)
-    ${response.description}
+    AS A developer
     
     ## User Story
     ### As the Developer
@@ -32,38 +31,36 @@ function fileGenerator(response) {
 
     ## Contribution Guidelines
     ###### [Back to Table of Contents](#Table-of-Contents)
-    ${response.contribute}
+    none
 
     ## Test Instructions
     ###### [Back to Table of Contents](#Table-of-Contents)
-      ${response.test}
+      none
 
     ## Overview: What Was Accomplished!
     ### Workflow [Back to Table of Contents](#Table-of-Contents)
-    ${response.accomplish}
+    Created an awesome ReadMe file, which can be utilized for future endeavors.
 
     ### Screenshots (Building this application)
     ###### [Back to Table of Contents](#Table-of-Contents)
-    #### Demo created ![script.js](${response.scriptjs})
+    #### Demo created ![script.js]()
+    ![](index.js%20pic.PNG)
     
-    #### Demo created ![fileGenerator.js](${response.fileGenerator})
+    #### Demo created ![fileGenerator.js]()
+    ![](fileGenerator.js%20pic.PNG)
     
-    #### Demo created ![ReadMe.md](${response.ReadMe})
+    #### Demo created ![ReadMe.md]()
     
 
     ## Repositiory End-Goal Criterea
     ###### [Back to Table of Contents](#Table-of-Contents)
-    ${response.endgoal}
+    Stay on task and dont fall behind.
     
     ## License
-    ${response.license}
+    MIT
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.`
-return content;
-};
-
-module.exports = fileGenerator;
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
