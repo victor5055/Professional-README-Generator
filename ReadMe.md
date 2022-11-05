@@ -44,10 +44,10 @@
     ### Screenshots (Building this application)
     ###### [Back to Table of Contents](#Table-of-Contents)
     #### Demo created ![script.js]()
-    ![](index.js%20pic.PNG)
+    ![](/index.js%20pic.PNG)
     
     #### Demo created ![fileGenerator.js]()
-    ![](fileGenerator.js%20pic.PNG)
+    ![](/fileGenerator.js%20pic.PNG)
     
     #### Demo created ![ReadMe.md]()
     
