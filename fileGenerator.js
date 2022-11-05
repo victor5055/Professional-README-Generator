@@ -1,5 +1,5 @@
 function fileGenerator(response) {
-    const content = `# ${response.title}
+    const  content = `# ${response.title}
 
     #### ${response.logo}[${response.userName}](${response.GitHub}) [Email Me](${response.email}) [Deployed Application]
     #### READMEGenerator© 2022 All Rights Reserved.  ${response.license} All material must be cited or credited, when using material (free to use).
@@ -44,11 +44,10 @@ function fileGenerator(response) {
 
     ### Screenshots (Building this application)
     ###### [Back to Table of Contents](#Table-of-Contents)
-    #### Demo created ![script.js](${response.scriptjs})
+  (${response.scriptjs})
     
-    #### Demo created ![fileGenerator.js](${response.fileGenerator})
-    
-    #### Demo created ![ReadMe.md](${response.ReadMe})
+  (${response.fileGenerator})
+  (${response.ReadMe})
     
 
     ## Repositiory End-Goal Criterea

@@ -4,7 +4,7 @@
  READMEGenerator© 2022 All Rights Reserved.  MIT All material must be cited or credited, when using material (free to use).
 
 # Table of Contents
- *[Repository Description](#Repository-Description)
+* [Repository Description](#Repository-Description)
 * [Installation Instructions](#Install)
 * [Usage of Information](#Usage)
 * [References](#Ref)
@@ -12,9 +12,12 @@
 * [Future Project](#Future-Project)
         
  # Description of Repository
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
+
+
  ###### [Back to Table of Contents](#Table-of-Contents) 
- AS A developer
         
 ## User Story
 ### As the Developer
@@ -35,8 +38,8 @@ none
 
  ## Test Instructions
 ###### [Back to Table of Contents](#Table-of-Contents)
- 1. Type in your integrated terminal npm install inquirer.
- 2.
+ 1. Type in your integrated terminal "npm install inquirer".
+ 2. Start app- type in "node index.js".
 
 ## Overview: What Was Accomplished!
 ### Workflow [Back to Table of Contents](#Table-of-Contents)
