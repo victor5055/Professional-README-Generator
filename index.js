@@ -57,13 +57,13 @@ const questions = [
         message:"How do you want to license this project?",
         name: "license",
         choices: [
-            "Apache",
-            "Academic",
-            "GNU",
-            "ISC",
-            "MIT",
+            "GNU AGPLv3",
+            "GNU GPLv3",
+            "GNU LGPLv3",
             "Mozilla",
-            "Open"
+            "MIT",
+            "Apache",
+            "Boost",
         ],
     },{
         type: "input",
