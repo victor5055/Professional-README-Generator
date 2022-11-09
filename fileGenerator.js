@@ -12,9 +12,8 @@ function fileGenerator(response) {
     *[Usage of Information](#Usage)
     *[References](#Ref)
     *[Repositiory End-Goal Criterea](#Criterea)
-    *[Future Project](#Future-Project)
     
-    # Description of Repository
+    # Repository-Description
     Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
     ###### [Back to Table of Contents](#Table-of-Contents)
     ${response.description}
