@@ -8,7 +8,7 @@ function fileGenerator(response) {
 
     ## Table of Contents
     *[Description of Repository](#Repository-Description)
-    *[Installation Instructions](#Install)
+    *[User Story](#User Story)
     *[Usage of Information](#Usage)
     *[References](#Ref)
     *[Repositiory End-Goal Criterea](#Criterea)
