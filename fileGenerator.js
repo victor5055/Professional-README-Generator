@@ -1,16 +1,18 @@
+
+//function call for fileGenerator//
 function fileGenerator(response) {
     const  content = `# ${response.title}
 
-    #### ${response.logo}[${response.userName}](${response.GitHub}) [Email Me](${response.email}) [Deployed Application]
+    #### ${response.logo}[${response.userName}](${response.GitHub}) [Email Me](${response.email}) [Deployed Application](${response.deploymentLink})
     #### READMEGenerator© 2022 All Rights Reserved.  ${response.license} All material must be cited or credited, when using material (free to use).
 
     ## Table of Contents
-    * [Description of Repository](#Repository-Description)
-    * [Installation Instructions](#Install)
-    * [Usage of Information](#Usage)
-    * [References](#Ref)
-    * [Repositiory End-Goal Criterea](#Criterea)
-    * [Future Project](#Future-Project)
+    *[Description of Repository](#Repository-Description)
+    *[Installation Instructions](#Install)
+    *[Usage of Information](#Usage)
+    *[References](#Ref)
+    *[Repositiory End-Goal Criterea](#Criterea)
+    *[Future Project](#Future-Project)
     
     # Description of Repository
     Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:

@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "inquirer": "^8.2.5",
-    "inquirer-autocomplete-prompt": "^3.0.0",
-    "inquirer-command-prompt": "^0.1.0",
-    "node-models": "^2.1.5",
-    "promisify-core-api": "^1.0.1"
-  }
-}

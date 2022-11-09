@@ -1,10 +1,10 @@
-//Declare//
+//Variables to connect modules to application//
 
 const fileGenerator = require("./fileGenerator");
 const fs = require("fs");
 const inquirer = require('inquirer');
 
-// Readme Questions, Array of questions //
+// Readme questions to ask then user //
 const questions = [
     {
         type: "input",
@@ -45,10 +45,6 @@ const questions = [
         name: "deploymentLink"
     },{
         type:"input",
-        message:"What function does this project perform?",
-        name: "functionality"
-    },{
-        type:"input",
         message:"List your collaborators and any attributions that need to be made?",
         name: "contribute"
     },{
@@ -87,7 +83,7 @@ const questions = [
         name: "endgoal"
     
     }];
-// Function for Readme file //
+// Function call for Readme file //
 inquirer.prompt(questions).then(function(response) {
     console.log(response);
     
