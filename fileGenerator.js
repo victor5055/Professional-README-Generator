@@ -3,8 +3,8 @@
 function fileGenerator(response) {
 const  content = `# ${response.title}
 
-#### ${response.logo}[${response.userName}](${response.GitHub}) [Email Me](${response.email}) [Deployed Application](${response.deploymentLink})
-#### READMEGenerator© 2022 All Rights Reserved.  ${response.license} All material must be cited or credited, when using material (free to use).
+[Deployed Application](${response.deploymentLink})
+[licenseBadge] ${response.licenseBadge}
 
 ## Table of Contents
 *[Description of Repository](#Repository-Description)
@@ -66,6 +66,7 @@ for additional licensing information - [https: //choosealicense.com/](https://ch
     
 ## Contact
 * Github Username: ${response.userName}
+* Github Profile link:(${response.GitHub})
 * GitHub Email: ${response.email}
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:

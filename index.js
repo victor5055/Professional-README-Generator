@@ -31,10 +31,7 @@ const questions = [
         type:"input",
         message:"Provide a breif description of the project?",
         name: "description"
-    },{
-        type:"input",
-        message:"Give your logo information?",
-        name: "logo"
+
     },{
         type:"input",
         message:"How do you install this project?",
