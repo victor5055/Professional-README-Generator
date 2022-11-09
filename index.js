@@ -16,7 +16,7 @@ async function init() {
       const answers = await inquirer.prompt(questions);
       answers.licenseBadge = licenseBadge(answers.license);
       let readMeData = fileGenerator(answers);
-      await writeFileAsync("created-README.md", readMeData);
+      await writeFileAsync("./ReadMe.md", readMeData);
     } catch (err) {
       throw err;
     }
