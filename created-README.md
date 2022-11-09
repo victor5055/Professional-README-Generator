@@ -1,25 +1,24 @@
 # Professional-README-Generator
 
 [Deployed Application](none)
-[licenseBadge] undefined
+[licenseBadge] [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
 *[Description of Repository](#Repository-Description)
 *[User Story](#User%20Story)
-*[Contribution Guidelines](#Contribution Guidelines)
+*[Contribution Guidelines](#Contribution%20Guidelines)
 *[Test Instructions](#test)
 *[Repositiory End-Goal Criterea](#endgoal)
 *[License](#license)
 *[Contact](#Contact)
     
  # Repository-Description
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 ###### [Back to Table of Contents](#Table-of-Contents)
-AS A developer I WANT a README generator SO THAT I can quickly create a professional README for a new project.
+This application  will allow a project creator to spend more time working on finishing the project and less time creating a good README.
     
 ## User Story
+### As the Developer
 ###### [Back to Table of Contents](#Table-of-Contents)
-As the Developer
 1.   I want a command-line application that accepts user input.
 2.   I want to be prompted for information about my application repository.
 3.   I want a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contribution Guidelines, Tests Instructions, and Questions.
@@ -34,26 +33,26 @@ As the Developer
 ###### [Back to Table of Contents](#Table-of-Contents)
 none
 
-## Test Instructions
+## Installation
 ###### [Back to Table of Contents](#Table-of-Contents)
-none
+git clone: git@github.com:victor5055/Professional-README-Generator.git
+
+To clone the repo:
+  
+git clone git@github.com:victor5055/Professional-README-Generator.git
 
 ## Overview: What Was Accomplished!
 ### Workflow [Back to Table of Contents](#Table-of-Contents)
-Created an awesome ReadMe file, which can be utilized for future endeavors.
+Created an awesome and generic ReadMe.md file
 
 ### Screenshots (Building this application)
 ###### [Back to Table of Contents](#Table-of-Contents)
-![]()
-    
-![]()
-  
-![]()
+()
     
 
 ## Repositiory End-Goal Criterea
 ###### [Back to Table of Contents](#Table-of-Contents)
-Stay on task.
+Stay on Task
     
 ## License
 MIT
@@ -64,7 +63,7 @@ for additional licensing information - [https: //choosealicense.com/](https://ch
 ## Contact
 * Github Username: victor5055
 * Github Profile link:(https://github.com/victor5055)
-* GitHub Email: vicor5055@outlook.com
+* Email: victor5055@outlook.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
