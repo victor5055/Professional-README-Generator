@@ -1,6 +1,7 @@
 //Variables to connect modules to application//
 
-const fileGenerator = require("./fileGenerator");
+const fileGenerator = require("./utils/fileGenerator");
+const licenseBadge = require("./utils/licenseBadge").licenseBadge;
 const fs = require("fs");
 const inquirer = require('inquirer');
 
@@ -22,10 +23,6 @@ const questions = [
         type: "input",
         message: "What is your email?",
         name: "email"
-    },{
-        type: "input",
-        message: "Please state any test(s)",
-        name: "test"
 
     },{
         type:"input",
@@ -36,6 +33,10 @@ const questions = [
         type:"input",
         message:"How do you install this project?",
         name: "installation"
+    },{
+        type: "input",
+        message: "What is the link to clone the repo?",
+        name: "clone",
     },{
         type:"input",
         message:"What is the Deployment link?",
@@ -65,15 +66,7 @@ const questions = [
     },{
         type: "input",
         message: "Provide a screenshot (Readme).",
-        name: "ReadMe"
-    },{
-        type: "input",
-        message: "Please provide a screenshot (scriptjs).",
-        name: "scriptjs"
-    },{
-        type: "input",
-        message: "Please provide a screenshot (fileGenerator).",
-        name: "fileGenerator"
+        name: "screenshot"
     },{
         type: "input",
         message: "What is your end-goal.",
@@ -83,7 +76,8 @@ const questions = [
 // Function call for Readme file //
 inquirer.prompt(questions).then(function(response) {
     console.log(response);
-    
+    answers.licenseBadge = licenseBadge(answers.license);
+    console.log(licenseBadge);
      const content = fileGenerator(response);
      console.log(content);
       fs.writeFile("./ReadMe.md", content, function(err){

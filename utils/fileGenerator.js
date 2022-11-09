@@ -8,8 +8,8 @@ const  content = `# ${response.title}
 
 ## Table of Contents
 *[Description of Repository](#Repository-Description)
-*[User Story](#User Story)
-*[Contribution Guidelines](#Contribution Guidelines)
+*[User Story](#User%20Story)
+*[Contribution Guidelines](#Contribution%20Guidelines)
 *[Test Instructions](#test)
 *[Repositiory End-Goal Criterea](#endgoal)
 *[License](#license)
@@ -37,9 +37,13 @@ ${response.description}
 ###### [Back to Table of Contents](#Table-of-Contents)
 ${response.contribute}
 
-## Test Instructions
+## Installation
 ###### [Back to Table of Contents](#Table-of-Contents)
-${response.test}
+${response.installation}
+
+To clone the repo:
+  
+git clone ${response.clone}
 
 ## Overview: What Was Accomplished!
 ### Workflow [Back to Table of Contents](#Table-of-Contents)
@@ -47,11 +51,7 @@ ${response.accomplish}
 
 ### Screenshots (Building this application)
 ###### [Back to Table of Contents](#Table-of-Contents)
-(${response.scriptjs})
-    
-(${response.fileGenerator})
-  
-(${response.ReadMe})
+(${response.screenshot})
     
 
 ## Repositiory End-Goal Criterea
