@@ -4,7 +4,7 @@ const fileGenerator = require("./fileGenerator");
 const fs = require("fs");
 const inquirer = require('inquirer');
 
-// Readme questions to ask then user //
+// Array of questions for user //
 const questions = [
     {
         type: "input",
