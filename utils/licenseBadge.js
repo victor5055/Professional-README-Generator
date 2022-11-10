@@ -21,4 +21,5 @@ function licenseBadge(value) {
   module.exports = {
     licenseBadge: licenseBadge,
   };
+
  
