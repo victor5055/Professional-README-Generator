@@ -1,11 +1,12 @@
-//Variables to connect modules to application//
-const fileGenerator = require("./utils/fileGenerator");
-const licenseBadge = require("./utils/licenseBadge").licenseBadge;
-const questions = require("./utils/questions").questions;
 // Variables containing required packages
 const fs = require("fs");
 const inquirer = require('inquirer');
 const util = require("util");
+
+//Variables to connect modules to application//
+const fileGenerator = require("./utils/fileGenerator");
+const licenseBadge = require("./utils/licenseBadge").licenseBadge;
+const questions = require("./utils/questions").questions;
 //Allows for use of async await
 const writeFileAsync = util.promisify(fs.writeFile);
 

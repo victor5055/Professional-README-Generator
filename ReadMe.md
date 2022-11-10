@@ -5,18 +5,17 @@
 
 ## Table of Contents
 *[Description of Repository](#Repository-Description)
-*[User Story](#User%20Story)
-*[Contribution Guidelines](#Contribution%20Guidelines)
-*[Test Instructions](#test)
-*[Repositiory End-Goal Criterea](#endgoal)
-*[License](#license)
+*[User-Story](#User-Story)
+*[Contribution-Guidelines](#Contribution-Guidelines)
+*[Repositiory-End-Goal-Criterea](#endgoal)
+*[License](#License)
 *[Contact](#Contact)
     
  # Repository-Description
 ###### [Back to Table of Contents](#Table-of-Contents)
-This application  will allow a project creator to spend more time working on finishing the project and less time creating a good README.
+A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
     
-## User Story
+## User-Story
 ### As the Developer
 ###### [Back to Table of Contents](#Table-of-Contents)
 1.   I want a command-line application that accepts user input.
@@ -29,28 +28,28 @@ This application  will allow a project creator to spend more time working on fin
 8.   I want to enter my email address; and then this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions.
 9.   I want to click on the links in the Table of Contents; and then, I am taken to the corresponding section of the README.
 
-## Contribution Guidelines
+## Contribution-Guidelines
 ###### [Back to Table of Contents](#Table-of-Contents)
 none
 
 ## Installation
 ###### [Back to Table of Contents](#Table-of-Contents)
-git clone: git@github.com:victor5055/Professional-README-Generator.git
+1.Ensure that your application includes the require dependacies, by typing the commnd in your integrated terminal "npm install inquirer". 2.Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub. 3.Run “node index.js"
 
 To clone the repo:
   
-git clone: git@github.com:victor5055/Professional-README-Generator.git
+git clone git@github.com:victor5055/Professional-README-Generator.git
 
 ## Overview: What Was Accomplished!
 ### Workflow [Back to Table of Contents](#Table-of-Contents)
-Created an awesome and generic ReadMe.md file
+Created an awesome and generic ReadMe.md file; which can be utilize for future endeavors
 
 ### Screenshots (Building this application)
 ###### [Back to Table of Contents](#Table-of-Contents)
-()
+(![])
     
 
-## Repositiory End-Goal Criterea
+## Repositiory-End-Goal-Criterea
 ###### [Back to Table of Contents](#Table-of-Contents)
 Stay on Task
     
