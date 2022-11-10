@@ -8,8 +8,8 @@ const  content = `# ${response.title}
 
 ## Table of Contents
 *[Description of Repository](#Repository-Description)
-*[User Story](#User%20Story)
-*[Contribution Guidelines](#Contribution%20Guidelines)
+*[UserStory](#UserStory)
+*[ContributionGuidelines](#ContributionGuidelines)
 *[Test Instructions](#test)
 *[Repositiory End-Goal Criterea](#endgoal)
 *[License](#license)
