@@ -8,18 +8,17 @@ const  content = `# ${response.title}
 
 ## Table of Contents
 *[Description of Repository](#Repository-Description)
-*[UserStory](#UserStory)
-*[ContributionGuidelines](#ContributionGuidelines)
-*[Test Instructions](#test)
-*[Repositiory End-Goal Criterea](#endgoal)
-*[License](#license)
+*[User-Story](#User-Story)
+*[Contribution-Guidelines](#Contribution-Guidelines)
+*[Repositiory-End-Goal-Criterea](#endgoal)
+*[License](#License)
 *[Contact](#Contact)
     
  # Repository-Description
 ###### [Back to Table of Contents](#Table-of-Contents)
 ${response.description}
     
-## User Story
+## User-Story
 ### As the Developer
 ###### [Back to Table of Contents](#Table-of-Contents)
 1.   I want a command-line application that accepts user input.
@@ -32,7 +31,7 @@ ${response.description}
 8.   I want to enter my email address; and then this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions.
 9.   I want to click on the links in the Table of Contents; and then, I am taken to the corresponding section of the README.
 
-## Contribution Guidelines
+## Contribution-Guidelines
 ###### [Back to Table of Contents](#Table-of-Contents)
 ${response.contribute}
 
@@ -53,7 +52,7 @@ ${response.accomplish}
 (${response.screenshot})
     
 
-## Repositiory End-Goal Criterea
+## Repositiory-End-Goal-Criterea
 ###### [Back to Table of Contents](#Table-of-Contents)
 ${response.endgoal}
     
