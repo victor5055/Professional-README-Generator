@@ -1,7 +1,7 @@
-# Professional-README-Generator
+# f
 
-[Deployed Application](none)
-[licenseBadge] [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[Deployed Application](f)
+[licenseBadge] undefined
 
 ## Table of Contents
 *[Description of Repository](#Repository-Description)
@@ -13,8 +13,9 @@
 *[Contact](#Contact)
     
  # Repository-Description
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
 ###### [Back to Table of Contents](#Table-of-Contents)
-This application  will allow a project creator to spend more time working on finishing the project and less time creating a good README.
+f
     
 ## User Story
 ### As the Developer
@@ -31,39 +32,39 @@ This application  will allow a project creator to spend more time working on fin
 
 ## Contribution Guidelines
 ###### [Back to Table of Contents](#Table-of-Contents)
-none
+f
 
 ## Installation
 ###### [Back to Table of Contents](#Table-of-Contents)
-git clone: git@github.com:victor5055/Professional-README-Generator.git
+f
 
 To clone the repo:
   
-git clone: git@github.com:victor5055/Professional-README-Generator.git
+git clone f
 
 ## Overview: What Was Accomplished!
 ### Workflow [Back to Table of Contents](#Table-of-Contents)
-Created an awesome and generic ReadMe.md file
+f
 
 ### Screenshots (Building this application)
 ###### [Back to Table of Contents](#Table-of-Contents)
-()
+(f)
     
 
 ## Repositiory End-Goal Criterea
 ###### [Back to Table of Contents](#Table-of-Contents)
-Stay on Task
+f
     
 ## License
-MIT
+GNU AGPLv3
 * For more information on license types, please reference this website
 for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
 
     
 ## Contact
-* Github Username: victor5055
-* Github Profile link:(https://github.com/victor5055)
-* Email: victor5055@outlook.com
+* Github Username: f
+* Github Profile link:(f)
+* Email: f
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
