@@ -7,7 +7,7 @@
 *[Description of Repository](#Repository-Description)
 *[User-Story](#User-Story)
 *[Contribution-Guidelines](#Contribution-Guidelines)
-*[Repositiory-End-Goal-Criterea](#endgoal)
+*[Repositiory-End-Goal-Criterea](#Repositiory-End-Goal-Criterea)
 *[License](#License)
 *[Contact](#Contact)
     
